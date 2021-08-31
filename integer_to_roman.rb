@@ -1,5 +1,6 @@
 # Use the roman_mapping hash to define a recursive method that
 # converts an integer to a Roman numeral.
+# helpful site with info: https://www.rapidtables.com/convert/number/how-number-to-roman-numerals.html
 
 def integer_roman(number, roman = [])
 roman_mapping = {
